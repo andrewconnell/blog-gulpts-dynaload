@@ -1,0 +1,7 @@
+# no need to keep stuff pulled remotely
+node_modules
+build/typings
+
+# no js, just typescript
+*.js
+*.js.map
