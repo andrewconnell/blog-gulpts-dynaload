@@ -35,7 +35,11 @@ export class GulpTask extends BaseGulpTask {
     'verbose': 'Output nodemon settings'
   };
 
-  /** @constructor */
+  /** 
+   * @constructor 
+   * 
+   * @param {}
+  */
   constructor(done: IVoidCallback) {
     super();
     // start server

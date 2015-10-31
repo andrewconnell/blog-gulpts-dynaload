@@ -32,7 +32,7 @@ export class GulpTask extends BaseGulpTask {
   };
 
   /**
-   * @property  {ICommandLineArgs}  args  - Command line arguments;
+   * @property  {commandLineArgs}  args  - Command line arguments;
    */
   private _args: ICommandLineArgs = yargs.argv;
 

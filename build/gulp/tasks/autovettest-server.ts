@@ -31,7 +31,7 @@ export class GulpTask extends BaseGulpTask {
   };
 
   /** @constructor */
-  constructor(done: IVoidCallback) {
+  constructor() {
     super();
     Utils.log('STARTUP: auto vet, build & test server TypeScript files on file changes');
 
